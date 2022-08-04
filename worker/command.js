@@ -583,8 +583,8 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "My Jarot", //Kasih namalu 
-"description": "SELF BOT", 
+"title": "GOGOTS MOD", //Kasih namalu 
+"description": "GOGOTS BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
 "retailerId": "MyJarot",
@@ -604,7 +604,7 @@ orderMessage: {
 itemCount : 1,
 status: 1,
 surface : 1,
-message: 'MyMans', //Kasih namalu
+message: 'Hangga', //Kasih namalu
 orderTitle: 'Bang',
 thumbnail: log0, //Gambarnye
 sellerJid: '#0@s.whatsapp.net'
@@ -619,7 +619,7 @@ key : {
 },
 message: {
 locationMessage: {
-name: 'Russia',
+name: 'Hangga',
 jpegThumbnail: log0
 }
 }
@@ -664,7 +664,7 @@ const fgclink = {
 "groupInviteMessage": {
 "groupJid": "6285850539404-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
-"groupName": "P", 
+"groupName": "GOGOTS MOD", 
 "caption": "Halo bang jagoo", 
 'jpegThumbnail': log0
 }
@@ -679,11 +679,11 @@ participant: `0@s.whatsapp.net`, ...(from ?
 },
 message: { 
  "videoMessage": { 
- "title":"Jarot Official",
+ "title":"Gogots mod",
  "h": `Hmm`,
  'seconds': "30", 
  'gifPlayback': 'true', 
- 'caption': 'Jarot Official',
+ 'caption': 'Gogots Bot',
  'jpegThumbnail': log0
 }
 }
@@ -727,7 +727,7 @@ let res = sock.sendMessage(from, { text: teks, mentions: mems }, { quoted: m })
 return res
  }
 }
-let head = `*╭───╼[ _OSCAR-MD_ ]╾──➲*`
+let head = `*╭───╼[ _GOGOTS BOT-MD_ ]╾──➲*`
 let left = "*│*"
 let branch = "*├*"
 let bracketmenu = "*┞─╼「"
@@ -1008,12 +1008,12 @@ case prefix+'loc': {
 var but = [{
 urlButton: {
 displayText: 'Group Whatsapp',
-url: linkgrupss
+url: https://chat.whatsapp.com/DpDLbX0UvXS6EgEKyT02FU
 }
 }, {
 urlButton: {
-displayText: 'Instagram',
-url: 'https://instagram.com/deff.xyz'
+displayText: 'TIKTOK',
+url: 'https://vt.tiktok.com/ZSRYNhA3V/'
 }
 }, {
 quickReplyButton: {
@@ -1969,7 +1969,7 @@ templateMessage: {
 hydratedTemplate: {
 videoMessage: message.videoMessage,
 hydratedContentText: listmn,
-hydratedFooterText: "© OSCAR-MD",
+hydratedFooterText: "© GOGOTS BOT-MD",
 hydratedButtons: [{
 urlButton: {
 displayText: 'Group Whatsapp',
@@ -1977,8 +1977,8 @@ url: linkgrupss
 }
 }, {
 urlButton: {
-displayText: 'Instagram',
-url: 'https://instagram.com/Oscarbotz_'
+displayText: 'tiktok',
+url: 'https://vt.tiktok.com/ZSRYNhA3V/'
 }
 }, {
 quickReplyButton: {
@@ -2311,7 +2311,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -2356,7 +2356,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "©OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -2402,7 +2402,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2809,7 +2809,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© Gogots mod-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2834,7 +2834,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2861,7 +2861,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -2885,7 +2885,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS BOT-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3016,13 +3016,13 @@ if (!m.isGroup) return ads(mess.group)
 let response = await sock.groupInviteCode(m.chat)
 sock.sendMessage(m.chat, {text:`Link Group ${groupMetadata.subject} : \nhttps://chat.whatsapp.com/${response}l`, "contextInfo": {
 mimetype: "image/jpeg",
-text: "JAROT Official",
+text: "GOGOTS MOD Official",
 "forwardingScore": 1000000000,
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `ZackMans Official`,
-"body": `Subscribe To Channel Youtube Rismabotz Official`,
+"title": `Gogots mod Official`,
+"body": `Subscribe To Channel Youtube Gogot mod  Official`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
@@ -3098,8 +3098,8 @@ let buttons = [
 let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
-caption: `*「 OSCAR ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© OSCAR-MD",
+caption: `*「 GOGOTS BOT ~ MD」*\n\nChange Group Setting, Select Open Or Close`,
+footer: "© GOGOTS BOT-MD",
 buttons: buttons,
 headerType: 4
 }
@@ -3161,7 +3161,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+url: 'https://vt.tiktok.com/ZSRYNhA3V/'
 }
 }, {
 urlButton: {
@@ -3185,7 +3185,7 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(i, txt, "© OSCAR-MD", log0, btn, thum)
+sock.send5ButImg(i, txt, "© GOGOTS MOD", log0, btn, thum)
 }
 ads(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
@@ -3202,7 +3202,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'Source Code',
-url:'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+url:'https://vt.tiktok.com/ZSRYNhA3V/'
 }
 }, {
 urlButton: {
@@ -3226,14 +3226,14 @@ id: '#sc'
 }
 }]
 let txt = `*「 Broadcast」*\n\n${text}`
-sock.send5ButImg(yoi, txt, "© OSCAR-MD ", log0, btn, thum)
+sock.send5ButImg(yoi, txt, "© GOGOTS MOD ", log0, btn, thum)
 }
 ads('Sukses Broadcast')
 }
 addCmd(command.slice(1), 1, commund)
 break
 case prefix+'sc': case prefix+'script': case prefix+'donate': case prefix+'donasi': case prefix+'cekupdate': case prefix+'updatebot': case prefix+'cekbot': case prefix+'sourcecode': {
-teks = `「 OSCAR ~ MD」\nhttps://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ `
+teks = `「 GOGOTS BOT ~ MD」\nhttps://vt.tiktok.com/ZSRYNhA3V/ `
 teks += `Dont Forget Donate`
 let buttons = [
 {buttonId: `${prefix}menu`, buttonText: {displayText: 'Menu'}, type: 1}
@@ -3242,16 +3242,16 @@ let buttonMessage = {
 image: thum,
 jpegThumbnail: log0,
 caption: teks,
-footer: "©OSCAR-MD",
+footer: "©GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"OSCAR ~ MD  ( Donate )",
-body: "©OSCAR-MD", 
+title:"GOGOTS MOD ~ MD  ( Donate )",
+body: "GOGOTS MOD-MD", 
 thumbnail: fs.readFileSync("worker/media/image/Oscar.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/99b45f00f234cff8d0693.jpg',
-sourceUrl:"https://telegra.ph/file/99b45f00f234cff8d0693.jpg"
+mediaUrl: 'https://telegra.ph/file/17f5c274a9e9ed5a36b57.jpg',
+sourceUrl:"https://telegra.ph/file/17f5c274a9e9ed5a36b57.jpg"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3685,16 +3685,16 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"OSCAR- By JAROT",
-body:"© OSCAR-MD",
+title:"GOGOTS BOT BY: HANGGA",
+body:"© GOGOTS BOT-MD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3730,16 +3730,16 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© OSCAR-MD",
+footer: "© Gogots Bot-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCAR-MD",
+title:"GOGOTS BOT",
+body:"©Gogots mod-MD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}
 }
 sock.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3812,7 +3812,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© OSCAR-MD",
+footer: "© Gogots mod",
 buttons: buttons,
 headerType: 4
 }
@@ -3840,12 +3840,12 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"OSCAR-MD By JAROT",
-body:"© OSCAR-MD",
+title:"GOGOTS BOT",
+body:"© GOGOTS MOD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/TmX43Io_v8s",
-sourceUrl: "https://youtu.be/TmX43Io_v8s"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}}, {quoted:m})
 } catch {
 ads("Linknya Error")
@@ -3858,12 +3858,12 @@ if (isBan) return ads(mess.ban)
 if (!args[0]) return ads("Linknya mana kak?")
 try {
 sock.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCAR-MD",
+title:"GOGOTS BOT",
+body:"© GOGOTS MOD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}}, {quoted:m})
 } catch {
 ads("Linknya Error")
@@ -3891,11 +3891,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"JAROT Official ~ Twitter Downloader",
+title:"GOGOTS BOT Official ~ Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3918,11 +3918,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Jarot Official ~ Twitter Downloader",
+title:"GOGOTS MOD Official ~ Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3952,11 +3952,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "©OSCAR-MD",
+footer: "©GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"Jarot Official ~ Facebook Downloader",
+title:"GOGOTS MOD Official ~ Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3979,11 +3979,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"JAROT Official ~ Facebook Downloader",
+title:"GOGOTS MOD Official ~ Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -4014,11 +4014,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[1].url},
 caption: texttk,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"JAROT Official ~ Tiktok Downloader",
+title:"GOGOTS MOD Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4063,11 +4063,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.medias[0].url},
 caption: texttk,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"JAROT Official ~ Tiktok Downloader",
+title:"GOGOTS MOD Official ~ Tiktok Downloader",
 body:res.title,
 thumbnail: log0,
 mediaType:1,
@@ -4103,12 +4103,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© OSCAR-MD",
+body: "© GOGOTS MOD-MD",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -4138,12 +4138,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© OSCAR-MD",
+footer: "© GOGOTS MOD-MD",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© OSCAR-MD",
+body: "© GOGOTS MOD-MD",
 thumbnail: {url:res.thumb},
 mediaType:2,
 mediaUrl: args[0],
@@ -4161,12 +4161,12 @@ break
 case prefix+'ytvd': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"OSCAR-MD - By JAROT",
-body:"© OSCARBOT~ JAROT",
+title:"GOGOTS MOD-MD - By GOGOTS MOD",
+body:"© GOGOTS MOD~ GOGOTS MOD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
@@ -4174,12 +4174,12 @@ break
 case prefix+'ytad': {
 if (isBan) return ads(mess.ban)
 sock.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"Oscar-Bot - By Jarot",
-body:"© OSCARBOT ~ JAROT",
+title:"GOGOTS MOD",
+body:"© GOGOTS MOD",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ",
-sourceUrl: "https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ"
+mediaUrl: "https://vt.tiktok.com/ZSRYNhA3V/",
+sourceUrl: "https://vt.tiktok.com/ZSRYNhA3V/"
 }}}, {quoted:m})
 }
 addCmd(command.slice(1), 1, commund)
