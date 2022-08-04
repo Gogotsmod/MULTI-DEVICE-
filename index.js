@@ -37,11 +37,11 @@ async function __START() {
         auth: state,
         version
     })
-console.log(color('[OSCAR-MD]', 'cyan'), color('Bot Online', 'yellow'))
+console.log(color('[GOGOTSBOT-MD]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[WARNING]', 'cyan'), color(`INGFO CREATOR`, 'yellow'))
-console.log(color('Instagram :', 'cyan'), color(`@oscarbotz_`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`@Jarotr`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`085850539404`, 'yellow'))
+console.log(color('TIKTOK :', 'cyan'), color(`https://vt.tiktok.com/ZSRYNhA3V/`, 'yellow'))
+console.log(color('YOUTUBE :', 'cyan'), color(`GOGOTS MOD`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(`081223163244`, 'yellow'))
 console.log(color('\n', 'cyan'), color('\nWelcome back, Owner! Hope you are doing well~', 'yellow'))
 
 sock.browserDescription = ["JAROT-MD", "Mac", "3.0.0"];
@@ -109,7 +109,7 @@ let buttons = [
 let buttonMessage = {
 image: await getBuffer(ppuser), 
 caption: mbc,
-footer: "© OSCAR-MD BY JAROT",
+footer: "© GOGOTS BOT",
 mentions:[orgnye],
 buttons: buttons,
 headerType: 4,
